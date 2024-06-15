@@ -1,7 +1,7 @@
 # Material-Dataset-Analysis
 Analysis of Material Datasets to find trends based on composition
 
-## ABSTRACT
+## Abstract
 The integration of data science with material science has revolutionized the understanding and optimization of material properties. This study focuses on the analysis of carbon steel properties based on its grade, utilizing a correlation matrix to uncover the relationships between mechanical properties such as ultimate tensile strength (UTS), yield strength (YS), hardness, and ductility, as well as chemical compositions including carbon and manganese content. The objective is to identify significant trends and correlations that can guide material selection and design. 
 
 Datasets for carbon steel were collected from publicly available sources and lab experiments, followed by rigorous data processing and cleaning to ensure accuracy and consistency. Features such as UTS, YS, hardness, elongation, and chemical compositions were extracted and standardized. Statistical methods were then employed to construct a correlation matrix, quantifying the strength and direction of relationships between the various properties. Pearson correlation coefficients were calculated, with the results visualized in a heatmap for easy interpretation. This approach enabled a comprehensive analysis of how different properties interrelate, providing a robust framework for understanding material behavior. 
@@ -9,7 +9,7 @@ Datasets for carbon steel were collected from publicly available sources and lab
 The results reveal strong positive correlations between the grade of carbon steel and its UTS, YS, and hardness, indicating that higher grades are associated with increased strength and hardness. Conversely, a negative correlation was observed between grade and ductility measures such as elongation and reduction of area, suggesting that higher-grade steels are less ductile. Also, carbon content significantly impacted the mechanical properties, correlating positively with strength and hardness. These findings underscore the critical role of chemical composition in determining the mechanical properties of carbon steel and highlight the value of material informatics, enhanced by meticulous data processing and feature extraction, in advancing material science. 
 
 
-## INTRODUCTION 
+## Introduction
 
 Material informatics leverages data science techniques to extract knowledge from material datasets, offering insights into the properties and compositions of various materials. By analyzing large datasets, it facilitates the discovery of meaningful patterns and correlations, leading to improved material selection and design. 
 
@@ -18,7 +18,7 @@ Carbon steel’s mechanical properties, such as ultimate tensile strength (UTS),
 To achieve this, datasets were gathered from publicly available sources and laboratory experiments, followed by rigorous data processing, cleaning, and feature extraction. Statistical methods were used to construct a correlation matrix, highlighting the strength and direction of relationships between the properties. The resulting analysis offers a comprehensive understanding of how different mechanical properties and chemical compositions of carbon steel interrelate, underscoring the value of material informatics in advancing material science. 
 
  
-## RESULTS AND DISCUSSIONS 
+## Results and Discussions
 
 The analysis of carbon steel properties reveals significant relationships between its mechanical properties and grade, as illustrated by the provided visualizations and correlation matrix. The trends observed in these graphs offer a deeper understanding of how different mechanical properties vary with changes in grade. 
 
@@ -67,7 +67,6 @@ Strength vs. Ductility Trade-off: The combined data indicate a clear trade-off b
 
 Impact of Chemical Composition: The strong correlations between carbon content (c_min and c_max) and mechanical properties like UTS, YS, and hardness underscore the vital role of chemical composition in determining the material's performance. Higher carbon content enhances strength and hardness but also contributes to decreased ductility, aligning with the observed trade-offs. 
  
-
  
 
  
